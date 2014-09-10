@@ -45,7 +45,8 @@ p#statement {
 
 section {
     border-bottom: 1px dashed #006600;
-    padding: 1em;
+    padding: 0 1em;
+    margin-bottom: 1em;
 }
 
 footer {
