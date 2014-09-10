@@ -1,0 +1,36 @@
+body {
+	font-family: Helvetica,Tahoma,Verdana,sans-serif;
+}
+.idrccol {
+    color: #00aeef;
+}
+a {
+	color: #017dac;;
+}
+h1 {
+	padding-bottom: 0.5em;
+	border-bottom: 2px solid #00aeef;	
+}
+h2 {
+	font-weight: normal
+}
+h3 {
+	font-weight: normal
+}
+.wrapper {
+    margin-top: 0em;
+	margin-left: 0em;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+	max-width: 1000px;
+	background-color:#FFFFFF;
+}
+body {
+    margin-top: 0em;
+	background-color:#FFFFFF;
+}
+section {
+	padding-left: 1em;
+}
