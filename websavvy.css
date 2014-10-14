@@ -22,7 +22,12 @@ h1 {
 	font-size: 150%;
 	display: inline;
 	float: left;
-	padding-left: 2em;
+	margin-left: 2em;
+}
+h1 a {
+	color: #fff;
+	border-color: #333;
+	text-decoration: none;
 }
 #tagline {
     text-align: right;
@@ -60,7 +65,7 @@ nav ul li a {
     padding: 3px;
     border: 3px solid #333;    
 }
-nav ul li a:hover, nav ul li a:focus {
+nav ul li a:hover, nav ul li a:focus, h1 a:hover, h1 a:focus {
     border: 3px solid #fff;
 }
 main {
@@ -76,13 +81,14 @@ h2 {
 	text-decoration: underline;
 	font-weight: normal;
 }
-
 div#logos { 
     text-align: center; 
 }
+div#logos a { 
+    display: inline-block;
+}
 div#logos img { 
     padding: 5px;
-    clear: both;
 }
 
 p#statement {
