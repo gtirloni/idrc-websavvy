@@ -36,7 +36,9 @@ header {
     width: 100%;
     padding: 0.5em 0;  
     color: #ffffff;  
+    z-index: 0;
 }
+
 nav {
     float: right;
     padding: 1em 2em 0 0;
@@ -62,9 +64,11 @@ nav ul li a:hover, nav ul li a:focus {
     border: 3px solid #fff;
 }
 main {
+    padding-top: 6em;
+    position: relative;
+    z-index: -1;
     max-width: 900px;
     margin: 0 auto;
-    padding-top: 7em;
 }
 
 h2 {
@@ -99,6 +103,12 @@ section {
     border-bottom: 1px dashed #006600;
     padding: 0 1em;
     margin-bottom: 1em;
+}
+.anchor{
+  display: block;
+  height: 5em; 
+  margin-top: -5em; 
+  visibility: hidden;
 }
 
 .image {
