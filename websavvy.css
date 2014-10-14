@@ -70,8 +70,6 @@ nav ul li a:hover, nav ul li a:focus, h1 a:hover, h1 a:focus {
 }
 main {
     padding-top: 6em;
-    position: relative;
-    z-index: -1;
     max-width: 900px;
     margin: 0 auto;
 }
