@@ -11,4 +11,6 @@ Once you have Docker installed, run the following commands to build a Docker ima
 
 The website will be available at [http://localhost:8000](http://localhost:8000)
 
+* To stop and remove the container: `docker rm -f websavvy`
+
 If you make changes to the website, repeat the steps to build the image and start a new container.
